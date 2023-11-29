@@ -119,7 +119,7 @@ contract AddConsumer is Script {
             contractToAddToVrf
         );
         vm.stopBroadcast();
-        console.log("Consumer contract added!");
+        console.log("Consumer contract added !");
     }
 
     function addConsumerUsingConfig(address mostRecentlyDeployed) public {
